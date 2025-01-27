@@ -217,7 +217,7 @@ MR(q) = P + \frac{\partial P}{\partial Q}q
 
 ![textbook monopoly case](img/Lecture%200%20Foundations%20of%20IO_6.png)
 
-In addition to MR=MC, we can also measure the industry/monopolist profit. 
+In addition to MR=MC, we can also measure the industry/monopolist profit.
 
 Its positive because Pm>AC(Qm). In this case, even with positive profits, there is no entry, so this figure also shows the long-run equilibrium.
 
