@@ -163,7 +163,8 @@ To find the value of $N'$, we just find the ratio of the old and new quantities 
 
 Only at points $Q_{c}$ and $P_{c}$, the consumer surplus and producer surplus is maximized. These points are the competitive price and output, respectively.
 
-> [!NOTE] Recall the following
+> [!NOTE]
+> Recall the following:
 >
 > - The demand function illustrates the $WTP$; while
 > - The supply function illustrates the $WTS$
@@ -325,8 +326,8 @@ WL' &= \frac{WL}{PQ}\\
 \end{align}
 ```
 
-> [!NOTE] Recall
-> In a pure monopolist
+> [!NOTE]
+> Recall that in a pure monopolist,
 >
 > ```math
 > LI = \frac{P - MC}{P} = \frac{1}{\eta}
@@ -345,7 +346,7 @@ WL' &= \frac{WL}{PQ}\\
 
 - Where $\eta$ is the elasticity of demand
 
-> [!TIP] Interpretation
+> [!IMPORTANT]
 > We find that the more elastic the demand is, the bigger $\frac{1}{\eta}$ is; the smaller $WL'$ is, and vice versa.
 >
 > - WL is smaller for an elastic demand at the equilibrium point, and vice versa
@@ -353,7 +354,8 @@ WL' &= \frac{WL}{PQ}\\
 For the perfect monopoly case, the deadweight loss as a fraction of current industry sales is simply $\frac{LI}{2}$ or $\frac{1}{2 \eta}$.
 
 <!-- !! i also don't really understand this -->
-> [!NOTE] In evaluating these estimates, there are two caveats
+> [!NOTE]
+> In evaluating these estimates, there are two caveats
 >
 > 1. Implicitly assume that it is possible to have perfect competition in all industries, which may be unlikely given costs and technology &rarr; the welfare losses are too high
 >    - Referring to fixed and sunk costs
@@ -384,8 +386,8 @@ For the pure monopolist, the LI can be shown to be the inverse of the elasticity
 MR = P + \frac{\Delta P}{\Delta Q}Q
 ```
 
-> [!NOTE] Recall
-> For profit max, set $MR = MC \longrightarrow MC = P + \frac{\Delta P}{\Delta Q}Q$
+> [!NOTE]
+> Recall that for profit max, set $MR = MC \longrightarrow MC = P + \frac{\Delta P}{\Delta Q}Q$
 >
 > - Where $\frac{\Delta P}{\Delta Q} < 0 \therefore\ MR < P$
 
@@ -393,7 +395,7 @@ Rearranging and dividing by price $P$: $\frac{P - MC}{P} = -\frac{\Delta P}{\Del
 
 - Where $\frac{1}{\eta}$ is the inverse of the elasticity of demand
 
-> [!TIP] Interpretation
+> [!IMPORTANT]
 > The larger the elasticity of demand, the smaller the LI is, and vice versa. However, note that $\frac{1}{\eta}$ can only be at most $1 \therefore\ \texttt{min(} \eta \texttt{)} = 1$. (double check)
 
 ### Market-Wide Lerner Index
@@ -408,7 +410,7 @@ LI = \frac{P - \sum^{N}_{i} s_{i}MC_{i}}{P}
 
 - Where the difference between this and the previous formula is the weighted average MC
 
-> [!TIP] Interpretation
+> [!IMPORTANT]
 > The greater the LI, the farther the market outcome lies from the competitive case and the more market power is being exploited.
 
 #### Drawbacks
@@ -496,7 +498,8 @@ A rise in the interest rate implies a decrease in the present value of any given
   - Supply will be around to influence market outcomes one or two periods later.
 - Ronald Coase (1972) &rarr; durability might greatly reduce if not eliminate the ability of the monopolist to set prices above the efficient level even in the current period
 
-> [!NOTE] Example
+> [!NOTE]
+> For example:
 >
 > - Two discrete periods
 > - Two units of a durable good (provide services with no loss due to depreciation)
