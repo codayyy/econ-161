@@ -31,28 +31,33 @@ Where:
 - $A/B$ (or $Q$) is the X-Intercept (independent variable)
   - Recall: We set A = 0
 
-At $P_{1}$, this is the value of the marginal unit $Q_{1}$ (the $Q$th unit).
+At $P_{1}$, this is the value of the marginal unit $Q_{1}$ (the $Q$th unit). If firms want to produce more, they have to set the price below $P_{1}$, to attract the WTP of the new customers.
 
 Each consumer will have different $WTP$. It's aggregation represents the market demand (or consumption).
 
-## In Either Time Frame (Short- or Longrun), $\text{Demand} = \text{Supply}$
+## Equilibrium: In Either Time Frame (Short- or Longrun), $\text{Demand} = \text{Supply}$
 
 - In the LR, new capital, labor, and firms can enter the market
 - At equilibrium, no consumer or firm would choose differently in how much to buy or sell
 
 ## Optimization
 
-- Sell more when: P > MC(q)
+- Sell more when: P > MC(q), and vice versa
 - Total Revenue: $P - q$
 - Total Cost: $P - C(q)$
+  - Where $q$ is its own production
 - Profit $(\pi)$: $(P - AC) \times q$
 - Optimal $Q$: $MR = MC$
   - $MC(q) = \frac{\Delta TC}{\Delta q}$
+    - $MC$ is the derivative of $TC$
+    - Likewise, $MR$ is the derivative of $TR$
   - Keep selling as long as $MR > 0$ (and/or $P > MC(q)$)
     - Recall: $MR = \frac{\Delta TR}{\Delta q} = \frac{P\cancel{(q_{1} - q_{0})}}{\cancel{(q_{1} - q_{0})}} = P \therefore\ MR = MC = P$
 
 > [!NOTE]
 > $MC$ is non-decreasing (flat or raising), at least around its equilibrium point where $MR = MC$. There are points on the graph, however, when $MC$ is falling, but eventually raises again.
+>
+> - If it were decreasing, the more is sold, the less costly it is to product the marginal unit. And since $P$ is fixed, $\pi$ is growing.
 
 - The $MC$ of the next unit will never be less than the $MC$ of the previous unit
 - If costs are falling, the firm will want to produce more $q$, and you are no longer in a perfect competition
@@ -61,16 +66,28 @@ Each consumer will have different $WTP$. It's aggregation represents the market 
 ## Initial Assumption: Perfect Competition
 
 - Recall: In perfect competition, $P$ is unaffected
-- This is because each firm’s $q$ is small relative to the size of the market
+- This is because each firm’s $q$ is small relative to the size of the market and will not affect $P$
 - Therefore, there is no reason for anyone to consider anyone else when making production decisions
+
+> [!TIP]
+> Think of a large body of water. Dipping a finger inside will not cause a noticeable change in the water level.
 
 ### More on Perfect Competition: Short-Run (SR)
 
-Where $P_{c}$ and $q_{c}$ intersect, $MR = P = MC(q_{c})$.
+Where $P_{c}$ and $q_{c}$ intersect, $MR = P = MC(q_{c})$. At this point, $q_{c}$ is at the equilibrium (the output per firm).
 
-This point Qc also lies in the Industry Supply \, S1\. Points Pc and Qc are on the line S1\.
+This point $Q_{c}$ also lies in the Industry Supply, $S_{1}$. Points $P_{c}$ and $Q_{c}$ are on the line $S_{1}$.
+
+Because firms cannot set $P$ on their own, its value on the firm's graph comes from the intersection of the market demand and supply.
 
 ![the long-run competitive equilibrium](img/Lecture%200%20Foundations%20of%20IO_1.png)
+
+> [!NOTE]
+> The industry supply function is just the horizontal summation of the marginal cost curves:
+>
+> ```math
+> \sum_{i=1}^{N} MC_{i} 
+> ```
 
 #### For The Firm
 
@@ -86,7 +103,7 @@ P = MR = mc(q)
 > - Equilibrium with $AC$ and $MC$ is where $AC$ is at its minimum and $MC(q)$ is raising
 > - Industry supply is upward sloping; when $P$ is increasing, $q_{c}$ has to increase
 
-As P increases, we can sell more, but our MC also increases.
+As $P$ increases, firms can sell more, but it's $MC$ also increases.
 
 #### Market Equilibrium
 
@@ -105,36 +122,33 @@ Q^{d}(P) = Q^{s}(P) = N \times q(P)
 Q_{1} = Nq1 > Qc = N \times q_{0}
 ```
 
-- If demand rises, there would be an increase in $P$ as the demand curve would intersect at a higher point in industry supply $S_{1}\ (Q_{1}, P_{1}$).
+- If demand rises, there would be an increase in $P$ (shift &rarr;) as the demand curve would intersect at a higher point in industry supply $S_{1}\ (Q_{1}, P_{1}$).
 - The higher $P$ would also mean that each firm would have to sell more, and $P_{1} = MC(q_{1})$ occurs at a higher output level, $q_{1}$.
 
 ### More on Perfect Competition: Long-Run (LR)
 
 ![the long-run competitive equilibrium](img/Lecture%200%20Foundations%20of%20IO_1.png)
 
-Only when there are no excess profits per firm $(\pi = 0)$:
+Only if $P = AC(q)$, at the point $q^{c}$, then there are no excess profits per firm $(\pi = 0)$. Now, if:
 
 ```math
-P = AC(q), \text{ at the point } q^{c}\\
+P > AC(q) \longrightarrow\ P(q) > TC \therefore\ \pi > 0
 ```
 
-Additionally,
+And because, at equilibrium, $P = MC$, when $P$ increases, as long as $MC > AC,\ \pi > 0$ where
 
 ```math
-P = mc\\
-Q^{d}(P) = Q^{s}(P)
+\pi = q_{c}(P_{1} - P_{c})
 ```
 
 > [!NOTE]
 >
-> - When $P_{1} > AC(q_1),\ P_{q} > TC,\ \pi > 0$
+> - When $MC > AC$ (and $q$ is high enough), $\pi > 0$
+>   - Extended periods of excess profits encourage the entry of new sellers, shifting the industry supply $S_{1}$ to the right just enough to lower $P$ from $P_{c} \longrightarrow P_{1}$ but where Q is higher at $Q'_{c}$ and lowers the market price. Now, $P = AC \therefore\ \pi = 0$
 >
 > - When $N$ increases, the supply curve shifts &rarr;
->   - At this point, $P_{c}$ is still the same as $P$ at ${Q_{C}}_{0}$ but Q_{C} itself is higher.
+>   - At this point, $P_{c}$ is still the same as $P$ at ${Q_{C}}_{0}$ but $Q_{C}$ itself is higher
 >   - From $P_1,\ P_{c}$ is lower
->
-> - When $MC > AC \text{ (and) } q \text{ is high enough, } \pi > 0$.
->   - Extended periods of excess profits encourage the entry of new sellers, shifting the industry supply $S_{1}$ to the right just enough to lower $P$ from $P_{c} \longrightarrow P_{1}$ but where Q is higher at $Q'_{c}$ and lowers the market price. Now, $P = AC \therefore\ \pi = 0$.
 
 To find the value of $N'$, we just find the ratio of the old and new quantities supplied/produced. Both of which should be greater than one $(1)$ because the new quantity (and number of firms N) has increased.
 
@@ -142,19 +156,20 @@ To find the value of $N'$, we just find the ratio of the old and new quantities 
 \frac{Q_{c}'}{Q_{c}} > 1 \Longleftrightarrow \frac{N'}{N} > 1
 ```
 
+<!-- !! this topic is the hardest to understand for me -->
 ### Welfare
 
 ![competition maximizes the total surplus](img/Lecture%200%20Foundations%20of%20IO_4.png)
 
-Only at points $Q_{c}$ and $P_{c}$, the consumer surplus and producer surplus is maximized.
+Only at points $Q_{c}$ and $P_{c}$, the consumer surplus and producer surplus is maximized. These points are the competitive price and output, respectively.
 
 > [!NOTE] Recall the following
 >
 > - The demand function illustrates the $WTP$; while
-> - (?) The supply function illustrates the $MC$
+> - The supply function illustrates the $WTS$
 > - $P = MR$
 
-At any point below $Q_{c},\ P'$ is higher than $P$.
+At any point below $Q_{c}$ (e.g., $Q'$), $P'$ (WTS) is higher than $P$ (WTP).
 
 > [!NOTE]
 > Pay attention to the demand curve to find $P'$.
@@ -165,15 +180,26 @@ At any point below $Q_{c},\ P'$ is higher than $P$.
   - Dead weight loss (DWL; aka loss is welfare) is created
     - Represents trades that could have happened but did not because $WTP > MC$
 
-At any point above $Q_{c},\ P'$ is lower than $P$.
+At any point above $Q_{c}$ (e.g., $Q_{g}$), $P'$ (WTP) is lower than $P$ (WTS).
+
+| Surplus | Points on the Graph |
+| --- | --- |
+| Consumer Surplus | $\triangle ahe$ |
+| Producer Surplus | $\triangle fdi$ |
+| Dead Weight Loss | $\triangle bfh$ |
+
+- Point $i$: Drawing a horizontal line from the y-axis to point $f$
 
 - The private sector will not want to supply at $Q_{g}$ so quantities from $Q_{c} \longrightarrow Q_{g}$ will have to be subsidized
-  - Where $Q_{c}$ is the intersection between $P'$ and the supply curve
+  - Where $Q_{c}$ is the competitive level of output (intersection between $P'$ and the supply curve)
+  - This subsidy is greater than the total increase of consumer and producer surplus
 - For firms to supply at $Q_{g}$, $P$ has to increase
   - At this price level, only a few people have a $WTP$ greater than $P$ (only a few can afford to buy at that $P$ level)
 - When there is a price discrepancy, DWL is also created (though on the other side)
   - Specifically, to provide $Q_{c} \longrightarrow Q_{g}$, someone myst pay for it therefore, there is a loss to society (i don't understand this point)
-<!-- TODO: try to understand more -->
+- The DWL is the excess subsidy required
+  - Likewise, the cost to produce quantities from $Q_{c} \longrightarrow Q_{g}$ is greater than the WTP
+  - Some people who consume the product ($Q_{c} \longrightarrow Q_{g}$) are not valuing it as much as the cost is to produce it
 
 #### Recall: $\text{Utility} = WTP - P$
 
@@ -186,127 +212,96 @@ At any point above $Q_{c},\ P'$ is lower than $P$.
 
 ![marginal revenue from increased production for a monopolist](img/Lecture%200%20Foundations%20of%20IO_5.png)
 
-The other side is monopoly, when the seller is large enough, so large that selling to the entire market demand is possible.
+The opposite of perfect competition is monopoly, where the seller is large enough that selling to the entire market demand is possible.
 
-The monopolist can lower the price because its sells enough to satisfy market demand.
+The monopolist can lower the price because its sells enough to satisfy market demand (moving along the demand curve).
 
-It then faces a trade off for selling more: sell one more unit but then the draw back is the price for everything you are selling falls by $\Delta P$.
+It then faces a trade off for selling more:
 
-This is the most important part of this part of the course. Because the monopoly can “feel” along the demand curve, it knows (or could know) the elasticity of demand.
+- Sell one more unit, but;
+- The price for everything you are selling falls by $\Delta P$
+  - In other words, the demand function is the monopolist's constraint
+  - And because the monopolist can "feel" along the demand curve, it knows (or could know) the elasticity of demand
 
 ```math
 \eta_D=\frac{P}{Q} \frac{\partial Q}{\partial P}=\frac{\% \Delta Q}{\% \Delta P}
 ```
 
-The elasticity of demand is a measure of this trade off.
+> [!NOTE]
+> Because the monopolist is aware that by increasing $Q$, $P$ will have to decrease, the elasticity of demand is a measure of this trade off between quantity and price.
 
 ## Monopoly Profit Max
 
-So now a monopolist would have to factor in this price effect when it decides to sell one more unit as a cost to selling one more unit, in addition to marginal cost:
+Now, a monopolist would have to factor in this **price effect** when it decides to sell one more unit as a cost to selling one more unit, in addition to marginal cost:
 
-$MR = MC$ remains as the optimality condition but $MR$ is not just $P$.
+- $MR = MC$ remains as the optimality condition but $MR$ is not just $P$
 
 ```math
 MR(q) = P + \frac{\partial P}{\partial Q}q
 ```
 
 > [!NOTE]
-> The derivative of the demand function is negative so $MR < P$ for a monopolist.
+> The derivative of the demand function is **negative** so $MR < P$ for a monopolist. In other words, the gain of selling one more unit is less than that of selling the previous unit.
 
 ## Monopoly Illustration
 
 ![textbook monopoly case](img/Lecture%200%20Foundations%20of%20IO_6.png)
 
-In addition to MR=MC, we can also measure the industry/monopolist profit.
+In addition to $MR = MC$, we can also measure the industry/monopolist profit.
 
-Its positive because Pm>AC(Qm). In this case, even with positive profits, there is no entry, so this figure also shows the long-run equilibrium.
+It's positive because $P_{m} > AC(Q_{m})$. In this case, even with positive profits, there is no entry, so this figure also shows the long-run equilibrium.
 
-## Marginal Revenue ($MR$)
+```math
+\begin{align}
+\pi &= \square abP_{m}AC_{Q_{m}}\\
+    &= Q_{m}(P_{m} - AC{Q_{m}})
+\end{align}
+```
 
-In the simplified world we are working in, with P=A-BQ, the marginal revenue is:
+## Marginal Revenue (MR)
+
+In the simplified world we are working in, with $P = A - BQ$, the MR is:
 
 ```math
 \begin{align}
 \frac{\partial TR}{\partial Q} &= MR\\
-                               &= A - BQ\\
+                               &= A - BQ - BQ\\
                                &= A - 2BQ
 \end{align}
 ```
 
 > [!NOTE]
+> This is because:
 >
 > ```math
 > \frac{\partial P}{\partial Q} = -B
 > ```
 
-With linear demand, monopolist marginal revenue is twice steep as the demand line.
+- Where $BQ$ is the slope; and
+- $A$ is the intercept
 
-## Market Power
-
-Lerner index ($LI$) – one way to measure how well a market performs from an efficiency point of view.
-
-- measures how far the outcome is from the competitive ideal:
-
-```math
-LI = \frac{P - MC}{P}
-```
-
-- Directly reflects the discrepancy between price and marginal cost, thus captures what is of interest when it comes to the exercise of market power.
-
-$LI = 0$ for a competitive market, since competitive firms price at marginal cost.
-
-For the pure monopolist\, the LI can be shown to be the inverse of the elasticity of demand – the less elastic the demand, the greater the price-marginal cost distortion
-
-```math
-MR = P + \frac{\Delta P}{\Delta Q}Q
-```
-
-For profit max, set $MR = MC \rightarrow MC = P + \frac{\Delta P}{\Delta Q}Q$
-
-Rearranging and dividing by price $P$: $\frac{P - MC}{P} = -\frac{\Delta P}{\Delta Q} \frac{Q}{P} = \frac{1}{\eta}$
-
-Where $\frac{1}{\eta}$ is the inverse of the elasticity of demand
-
-Lerner index cannot exceed $1$ and only reaches it if $MC=0$
-
-Market-Wide Lerner Index
-
-With more than one but not a large number of firms, measuring the $LI$ requires an average of marginal costs.
-
-When the commodity is homogenous so that all firms must sell at exactly the same price, then:
-
-```math
-LI = \frac{P - \sum^{N}_{i} s_{i}MC_{i}}{P}
-```
-
-The greater the $LI$, the farther the market outcome lies from the competitive case and the more market power is being exploited.
-
-- Drawbacks
-  - Problem of market definition
-  - LI is difficult to measure\, requires estimating elasticity of demand and marginal cost
-  - Interpretation remains ambiguous\, e.g.,
-    - Firms with high sunk cost to enter an industry
-    - Setting where cost-reducing innovations are important.
-
-![concentration ratios, price-cost margins, and number of establishments in the manufacturing sector](img/Lecture%200%20Foundations%20of%20IO_11.jpg)
+With linear demand, monopolist MR is twice steep as the demand line but they share the same intercept.
 
 ## Welfare Loss of Monopoly
 
-We can see that the market figure for monopoly can show the welfare loss from monopoly. Notice that $Q_{m} < Q_{c}$, which is the reason for the welfare loss.
-
-The deadweight loss triangle can be divided into the consumer welfare loss and the producer surplus loss. But note that producer surplus is greater under monopoly, so the interpretation of producer surplus is not the same thing as industry profit. (interpret the producer surplus loss)
-
 ![deadweight loss of monopoly](img/Lecture%200%20Foundations%20of%20IO_12.png)
+
+Notice that $Q_{m} < Q_{c}$, which is the reason for the welfare loss (monopolies restrict output from $Q_{c} \longrightarrow Q_{m}$, creating DWL).
+
+> [!NOTE]
+> The deadweight loss triangle can be divided into the consumer welfare loss and the producer surplus loss. However, note that producer surplus is **greater** under monopoly, so the interpretation of producer surplus is not the same thing as industry profit. We cannot conclude that the loss in producer surplus means producers are earning less relative to that of the perfectly competitive level (in fact, the opposite is true -- a monopolist maximizes producer surplus).
 
 ## Costs of Monopolies
 
-Measure of monopoly losses – the welfare triangle, the deadweight loss or triangle that results from prices above marginal cost:
+Measure of monopoly losses -- the welfare triangle, the deadweight loss or triangle that results from prices above marginal cost:
 
 ```math
 WL = \frac{1}{2}(P - MC)(Q^{C} - Q)
 ```
 
-Expressing this as a proportion of total sales
+- Where $Q$ is the quantity associated with $P$.
+
+Expressing this as a proportion of total sales,
 
 ```math
 \begin{align}
@@ -330,11 +325,14 @@ WL' &= \frac{WL}{PQ}\\
 \end{align}
 ```
 
-Recall that in a pure monopolist
-
-```math
-LI = \frac{P - MC}{P} = \frac{1}{\eta}
-```
+> [!NOTE] Recall
+> In a pure monopolist
+>
+> ```math
+> LI = \frac{P - MC}{P} = \frac{1}{\eta}
+> ```
+>
+> - Where LI is the Lerner Index (an estimate for the markup)
 
 Therefore:
 
@@ -345,7 +343,82 @@ WL' &= \frac{WL}{PQ}\\
 \end{align}
 ```
 
-For the perfect monopoly case, the deadweight loss as a fraction of current industry sales is simply one-half the LI or one over twice the elasticity of demand.
+- Where $\eta$ is the elasticity of demand
+
+> [!TIP] Interpretation
+> We find that the more elastic the demand is, the bigger $\frac{1}{\eta}$ is; the smaller $WL'$ is, and vice versa.
+>
+> - WL is smaller for an elastic demand at the equilibrium point, and vice versa
+
+For the perfect monopoly case, the deadweight loss as a fraction of current industry sales is simply $\frac{LI}{2}$ or $\frac{1}{2 \eta}$.
+
+<!-- !! i also don't really understand this -->
+> [!NOTE] In evaluating these estimates, there are two caveats
+>
+> 1. Implicitly assume that it is possible to have perfect competition in all industries, which may be unlikely given costs and technology &rarr; the welfare losses are too high
+>    - Referring to fixed and sunk costs
+> 2. Taken from data in which active antitrust enforcement has been the norm &rarr; these measures are an understatement of the potential for monopoly-induced welfare losses
+
+## Market Power
+
+### Lerner Index
+
+One way to measure how well a market performs from an efficiency point of view is to look at the Lerner Index.
+
+- Measures how far the outcome is from the competitive ideal (i.e., a perfectly competitive market where $P  = MC$):
+
+```math
+LI = \frac{P - MC}{P}
+```
+
+- Directly reflects the discrepancy between $P$ and $MC$, thus captures what is of interest when it comes to the exercise of market power
+
+> [!NOTE]
+> $LI = 0$ for a competitive market, since competitive firms price at marginal cost. Likewise, $LI > 0$ always; $LI = 1$ when $MC = 0 \therefore\ 0 < LI < 1$.
+>
+> - LI cannot exceed $1$ and only reaches it if $MC = 0$
+
+For the pure monopolist, the LI can be shown to be the inverse of the elasticity of demand -- the less elastic the demand, the greater the price-marginal cost distortion
+
+```math
+MR = P + \frac{\Delta P}{\Delta Q}Q
+```
+
+> [!NOTE] Recall
+> For profit max, set $MR = MC \longrightarrow MC = P + \frac{\Delta P}{\Delta Q}Q$
+>
+> - Where $\frac{\Delta P}{\Delta Q} < 0 \therefore\ MR < P$
+
+Rearranging and dividing by price $P$: $\frac{P - MC}{P} = -\frac{\Delta P}{\Delta Q} \frac{Q}{P} = \frac{1}{\eta}$
+
+- Where $\frac{1}{\eta}$ is the inverse of the elasticity of demand
+
+> [!TIP] Interpretation
+> The larger the elasticity of demand, the smaller the LI is, and vice versa. However, note that $\frac{1}{\eta}$ can only be at most $1 \therefore\ \texttt{min(} \eta \texttt{)} = 1$. (double check)
+
+### Market-Wide Lerner Index
+
+With more than one but not a large number of firms, measuring the $LI$ requires an average of marginal costs.
+
+When the commodity is homogenous so that all firms must sell at exactly the same price, then:
+
+```math
+LI = \frac{P - \sum^{N}_{i} s_{i}MC_{i}}{P}
+```
+
+- Where the difference between this and the previous formula is the weighted average MC
+
+> [!TIP] Interpretation
+> The greater the LI, the farther the market outcome lies from the competitive case and the more market power is being exploited.
+
+#### Drawbacks
+
+1. Problem of market definition
+2. LI is difficult to measure, requires estimating elasticity of demand and marginal cost
+3. Interpretation remains ambiguous, e.g.,
+
+   - Firms with high sunk cost to enter an industry
+   - Setting where cost-reducing innovations are important.
 
 ## Time and Industry Structure
 
