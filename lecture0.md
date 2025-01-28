@@ -211,21 +211,28 @@ At any point above $Q_{c}$ (e.g., $Q_{g}$), $P'$ (WTP) is lower than $P$ (WTS).
 
 ## Monopoly
 
-![marginal revenue from increased production for a monopolist](img/Lecture%200%20Foundations%20of%20IO_5.png)
-
-The opposite of perfect competition is monopoly, where the seller is large enough that selling to the entire market demand is possible.
+The opposite of perfect competition is monopoly, where the seller is large enough that selling to the entire market demand is possible. Any $\Delta Q \longrightarrow \Delta P$ for a monopolist; but for a perfectly competitive firm, we know that it has no effect on $P$.
 
 The monopolist can lower the price because its sells enough to satisfy market demand (moving along the demand curve).
+
+![marginal revenue from increased production for a monopolist](img/Lecture%200%20Foundations%20of%20IO_5.png)
+
+- A monopoly should sell at a higher $Q$ if $G > L$
+- To be more specific, any $\Delta Q$ has to be comparable to its respective $\Delta P$
+- If demand is not elastic, changing $P$ will not change $Q$ but a large amount, $\therefore$ $G$ is not large
+- This begs that question "What's the optimal $Q$?"
 
 It then faces a trade off for selling more:
 
 - Sell one more unit, but;
 - The price for everything you are selling falls by $\Delta P$
   - In other words, the demand function is the monopolist's constraint
-  - And because the monopolist can "feel" along the demand curve, it knows (or could know) the elasticity of demand
+  - And because the monopolist can "feel" along (estimate) the demand curve, it knows (or could know) the elasticity of demand
 
 ```math
+\begin{align}
 \eta_D=\frac{P}{Q} \frac{\partial Q}{\partial P}=\frac{\% \Delta Q}{\% \Delta P}
+\end{align}
 ```
 
 > [!NOTE]
@@ -233,16 +240,41 @@ It then faces a trade off for selling more:
 
 ## Monopoly Profit Max
 
-Now, a monopolist would have to factor in this **price effect** when it decides to sell one more unit as a cost to selling one more unit, in addition to marginal cost:
+Now, a monopolist would have to factor in this **price effect** when it decides to sell one more unit as a cost to selling one more unit, in addition to MC:
 
 - $MR = MC$ remains as the optimality condition but $MR$ is not just $P$
+- This additional cost is in terms of a lower infra-marginal price
 
 ```math
-MR(q) = P + \frac{\partial P}{\partial Q}q
+MR(Q) = P + \overbrace{\frac{\partial P}{\partial Q}Q}^{-}
 ```
 
 > [!NOTE]
 > The derivative of the demand function is **negative** so $MR < P$ for a monopolist. In other words, the gain of selling one more unit is less than that of selling the previous unit.
+
+> [!TIP]
+> If given $Q = A - BP$, we still get its first derivative:
+>
+> ```math
+> \frac{\text{d}Q}{\text{d}P} = -B
+> ```
+>
+> But again, we want $\frac{\text{d}P}{\text{d}Q}$. So,
+>
+> ```math
+> \frac{1}{\frac{\text{d}Q}{\text{d}P}} = \frac{1}{-B}
+> ```
+
+For a perfectly competitive firm, they do not feel any $\Delta P$ so $\frac{\text{d}P}{\text{d}Q} = 0\ \therefore\ MR = P\ (= MC)$.
+
+Likewise, for a perfectly competitive firm, $\frac{\text{d}TR}{\text{d}Q} = P(Q)$. But in general (and for a monopoly), $\frac{\text{d}TR}{\text{d}Q} = (\frac{\text{d}P}{\text{d}Q} Q) + (P \cancel{\frac{\text{d}Q}{\text{d}Q}})$ through the product rule, which is just the equation ($1$) above.
+
+> [!NOTE]
+> The $P$ from $P = A - BQ$ and $P + \frac{\text{d}P}{\text{d}Q}Q$ are the same. Therefore,
+>
+> ```math
+> MR(Q) = A - BQ + \frac{\text{d}P}{\text{d}Q}Q
+> ```
 
 ## Monopoly Illustration
 
@@ -253,22 +285,26 @@ In addition to $MR = MC$, we can also measure the industry/monopolist profit.
 It's positive because $P_{m} > AC(Q_{m})$. In this case, even with positive profits, there is no entry, so this figure also shows the long-run equilibrium.
 
 ```math
-\begin{align}
+\begin{align*}
 \pi &= \square abP_{m}AC_{Q_{m}}\\
     &= Q_{m}(P_{m} - AC{Q_{m}})
-\end{align}
+\end{align*}
 ```
+
+> [!NOTE]
+> Monopolies only consider a negative MR when they are subsidized for producing the $Q$ associated with the negative MR.
 
 ## Marginal Revenue (MR)
 
 In the simplified world we are working in, with $P = A - BQ$, the MR is:
 
 ```math
-\begin{align}
+\begin{align*}
 \frac{\partial TR}{\partial Q} &= MR\\
-                               &= A - BQ - BQ\\
+                               &= (A - BQ)Q\\
+                               &= AQ - BQ^{2}\\
                                &= A - 2BQ
-\end{align}
+\end{align*}
 ```
 
 > [!NOTE]
@@ -281,7 +317,7 @@ In the simplified world we are working in, with $P = A - BQ$, the MR is:
 - Where $BQ$ is the slope; and
 - $A$ is the intercept
 
-With linear demand, monopolist MR is twice steep as the demand line but they share the same intercept.
+With linear demand, the monopolist's MR is **twice steep** as the demand line but they share the same intercept.
 
 ## Welfare Loss of Monopoly
 
@@ -642,5 +678,122 @@ $\text{Recall: } \pi = (P \times q) - TC(q)$.
 \pi &= (30 \times 10) - 100 + 10^{2} + (10 \times 10)\\
     &= \cancel{300} - \cancel{100 - 100 - 100}\\
     &= 0\ \blacksquare
+\end{align}
+```
+
+### Practice Problem 2.2 (p. 27)
+
+Suppose that the cellular phone market described in Practice Problem 2.1, is monopolized. The monopolist has $50$ identical plants to run, each with the same cost function as described in that problem. Hence, the marginal cost function for the multiplant monopolist is described by $MC(Q) = 10 + \frac{Q}{25}$. The market demand is also assumed to be the same as Practice Problem 2.1. Recall $Q^{D} = \frac{6000 - 50P}{9}$
+
+1. Show that the monopolist's marginal revenue function is $MR(Q) = 120 - \frac{18Q}{50}$.
+
+
+
+2. Show that the monopolist's profit-maximizing output level is $Q_{M} = 275$. What price does the monopolist set to sell this level of output?
+
+
+
+3. What is the profit earned at each one of the monopolist's plants?
+
+
+
+### 3. Practice Problem 2.3 (p. 30)
+
+Return to the cellular phone industry when it was organized as a perfectly competitive industry. Use the information in Practice Problem 2.1 to work out consumer surplus and producer surplus in a competitive equilibrium.
+
+1. Show that when $Q^{C} = 500$ units and $P^{C} = \$30$ per unit then consumer surplus is equal to \$22,500 and producer surplus is equal to \$5,000. This results in a total surplus equal to \$27,500.
+
+```math
+\begin{align}
+Q^{D} &= \frac{6000 - 50P}{9}\\
+0 &= \frac{6000 - 50P}{9}\\
+0 &= 6000 - 50P\\
+50P &= 6000\\
+P^{D} &= \$120
+\end{align}
+```
+
+```math
+\begin{align}
+Q^{S} &= 25P - 250\\
+0 &= 25P - 250\\
+25P &= 250\\
+P^{S} &= \$10
+\end{align}
+```
+
+```math
+\begin{align}
+\text{CS} &= \frac{(120 - 30)500}{2}\\
+          &= \$22,500\ \blacksquare
+\end{align}
+```
+
+```math
+\begin{align}
+\text{PS} &= \frac{(30 - 10)500}{2}\\
+          &= \$5,000\ \blacksquare
+\end{align}
+```
+
+```math
+\begin{align}
+\text{TS} &= 22,500 + 5,000\\
+          &= \$27,500\ \blacksquare
+\end{align}
+```
+
+2. Show that when an output of $275$ units is produced in this industry, the sum of consumer and producer surplus falls to \$21,931.25.
+
+```math
+\begin{align}
+\text{CS} &= \frac{(120 - 70.5)275}{2}\\
+          &= \$6,806.25 
+\end{align}
+```
+
+```math
+\begin{align}
+\text{CS} &= \frac{(21-10)275}{2} + (70.5 - 21)275\\
+          &= \$1,512.5 + \$13,612.5 
+\end{align}
+```
+
+```math
+\begin{align}
+\text{TS} &= 6,806.25 + 1,512.5 + 13,612.5\\
+          &= \$21,931.25\ \blacksquare
+\end{align}
+```
+
+Or, since we are being asked for the sum of consumer and producer surplus,
+
+```math
+\begin{align}
+Q^{D} &= \frac{6000 - 50P}{9}\\
+275 &= \frac{6000 - 50P}{9}\\
+2,475 &= 6000 - 50P\\
+50P &= 3,525\\
+P^{D} &= \$70.5
+\end{align}
+```
+
+```math
+\begin{align}
+Q^{S} &= 25P - 250\\
+275 &= 25P - 250\\
+25P &= 525\\
+P^{S} &= \$21
+\end{align}
+```
+
+```math
+\begin{align}
+\text{DWL} &= \frac{(500 - 275)(70.5 - 21)}{2}\\
+    &= \frac{225 \times 49.5}{2}\\ 
+    &= \$5,568.75\\
+
+\\\text{TS} &= 27,500 - 5,568.75\\
+            &= \$21,931.25\ \blacksquare
 \end{align}
 ```
