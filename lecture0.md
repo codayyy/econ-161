@@ -113,8 +113,8 @@ Q^{d}(P) = Q^{s}(P) = N \times q(P)
 
 - $Q^{a} = A - BP$ or $P = A - BQ$
 
-> [!NOTE] Recall:
-> $N$ is fixed in the SR so $q(P)$ is what moves supply.
+> [!NOTE]
+> Recall that $N$ is fixed in the SR so $q(P)$ is what moves supply.
 
 #### Changes in Demand
 
@@ -662,7 +662,7 @@ Q^{*} &= 25P - 250\\
 
 4. How much output does each firm produce? Show that each firm earns zero profit in equilibrium.
 
-$\text{Again, } Q^{S} = N \times q(P)$.
+$\text{Again, } Q^{S} = N \time
 
 ```math
 \begin{align}
@@ -687,15 +687,67 @@ Suppose that the cellular phone market described in Practice Problem 2.1, is mon
 
 1. Show that the monopolist's marginal revenue function is $MR(Q) = 120 - \frac{18Q}{50}$.
 
+> [!NOTE]
+> We cannot have $MC = P$ because we are now assuming a monopoly.
 
+```math
+\begin{align}
+Q^{D} &= \frac{6000 - 50P}{9}\\
+9 Q^{D} &= 6000 - 50P\\
+9 Q^{D} - 6000 &= -50P\\
+P &= \frac{6000 - 9 Q^{D}}{50}\\
+  &= 120 - \frac{9 Q^{D}}{50}
+\end{align}
+```
+
+```math
+\begin{align}
+TR &= P \times Q\\
+   &= 120 - \frac{9 Q^{D}}{50} \times Q\\
+   &= 120Q - \frac{9 Q^{2}}{50}
+\end{align}
+```
+
+```math
+\begin{align}
+MR(Q) &=\frac{\partial{TR}}{\partial{Q}}\\
+      &= 120 - \frac{18Q}{50}\ \blacksquare
+\end{align}
+```
 
 2. Show that the monopolist's profit-maximizing output level is $Q_{M} = 275$. What price does the monopolist set to sell this level of output?
 
+$\text{Recall: For any profit-maximizing firm, } MR = MC$.
 
+```math
+\begin{align}
+10 + \frac{Q}{25} &= 120 - \frac{18Q}{50}\\
+\frac{2Q}{50} + \frac{18Q}{50} &= 110\\
+20Q &= 5,500\\
+Q &= 275\ \blacksquare
+\end{align}
+```
+
+```math
+\begin{align}
+275 &= \frac{6000 - 50P}{9}\\
+2,475 &= 6000 - 50P\\
+50P &= 3,525\\
+P &= \$70.5\ \blacksquare
+\end{align}
+```
 
 3. What is the profit earned at each one of the monopolist's plants?
 
+$\text{Each one of the monopolist's plants' profit-maximizing output level is } \frac{275}{50} = 5.5 \text{ units.}$ $\text{Likewise, each one sells one unit for \$119.01.}$
 
+```math
+\begin{align}
+TR &= P \times Q\\
+   &= 70.5 \times 275\\
+   &= \$19,387.5
+\end{align}
+```
 
 ### 3. Practice Problem 2.3 (p. 30)
 
