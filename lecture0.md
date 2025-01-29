@@ -744,8 +744,26 @@ $\text{Each one of the monopolist's plants' profit-maximizing output level is } 
 ```math
 \begin{align}
 TR &= P \times Q\\
-   &= 70.5 \times 275\\
-   &= \$19,387.5
+   &= 70.5 \times 5.5\\
+   &= \$387.75
+\end{align}
+```
+
+$\text{From Practice Problem 2.1,}$
+
+```math
+\begin{align}
+TC(5.5) &= 100 + q^{2} + 10q\\
+        &= 100 + 5.5^{2} + 10(5.5)\\
+        &= \$185.25
+\end{align}
+```
+
+```math
+\begin{align}
+\pi &= TR - TC\\
+    &= 387.75 - 185.25\\
+    &= \$202.5\ \blacksquare
 \end{align}
 ```
 
@@ -847,5 +865,92 @@ P^{S} &= \$21
 
 \\\text{TS} &= 27,500 - 5,568.75\\
             &= \$21,931.25\ \blacksquare
+\end{align}
+```
+
+### 4. Practice Problem 2.4 (p. 32)
+
+Water is produced and sold by the government. Demand for water is represented by the linear function $Q = 50 - 2P$. The total cost function for water production is also a linear function: $TC(Q) = 100 + 10Q$. You will also need to work out both the average cost of production, denoted by $AC(Q)$, equal to the total cost of producing a quantity of output divided by that quantity of output, $\frac{TC(Q)}{Q}$, and the marginal cost of production, denoted by $MC(Q)$, which is the additional cost incurred to produce one more unit.
+
+1. What fee should the government charge per unit of water in order to reach the efficient allocation?
+
+$\text{Recall that efficient allocation: } P = MC.$
+
+```math
+\begin{align}
+Q &= 50 - 2P\\
+2P &= 50 - Q\\
+P &= \frac{50 - Q}{2}
+\end{align}
+```
+
+```math
+\begin{align}
+MC(Q) &= \frac{\partial{TR}}{\partial{Q}}\\
+      &= 10
+\end{align}
+```
+
+```math
+\begin{align}
+\frac{50 - Q}{2} &= 10\\
+50 - Q &= 20\\
+Q &= 30\ \blacksquare
+\end{align}
+```
+
+```math
+\begin{align}
+P &= \frac{50 - Q}{2}\\
+  &= \frac{50 - 30}{2}\\
+  &= \$10\ \blacksquare
+\end{align}
+```
+
+2. How much should it charge if it wishes to maximize profit from the sale of water?
+
+$\text{Recall that maximizing profit: } MR = MC.$
+
+```math
+\begin{align}
+TR &= P \times Q\\
+   &= \frac{50 - Q}{2} \times Q\\
+   &= \frac{50Q - Q^{2}}{2}
+\end{align}
+```
+
+```math
+\begin{align}
+MR &= \frac{\partial{TR}}{\partial{Q}}\\
+   &= \frac{50 - 2Q}{2}\\
+   &= 25 - Q
+\end{align}
+```
+
+$\text{When } MR = MC,$
+
+```math
+\begin{align}
+25 - Q &= 10\\
+Q &= 15\\
+\end{align}
+```
+
+```math
+\begin{align}
+P &= \frac{50 - Q}{2}\\
+  &= \frac{50 - 15}{2}\\
+  &= \$17.5\ \blacksquare
+\end{align}
+```
+
+3. What is the value of the efficiency loss that results from charging the price in part b rather than the price determined in part a?
+
+$\text{Recall: DWL is the loss in welfare.}\\ \text{Also recall: The supply function illustrates the } MC.$
+
+```math
+\begin{align}
+DWl &= \frac{(30 - 15)(17.5 - 10)}{2}\\
+    &= \$56.25\ \blacksquare
 \end{align}
 ```
