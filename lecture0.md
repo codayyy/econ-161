@@ -220,7 +220,9 @@ The monopolist can lower the price because its sells enough to satisfy market de
 - A monopoly should sell at a higher $Q$ if $G > L$
 - To be more specific, any $\Delta Q$ has to be comparable to its respective $\Delta P$
 - If demand is not elastic, changing $P$ will not change $Q$ but a large amount, $\therefore$ $G$ is not large
-- This begs that question "What's the optimal $Q$?"
+
+> [!IMPORTANT]
+> This begs that question "What's the optimal $Q$?" This is done through $MR = MC$. This equality shows both TR- and profit-maximizing $Q$.
 
 It then faces a trade off for selling more:
 
@@ -228,6 +230,7 @@ It then faces a trade off for selling more:
 - The price for everything you are selling falls by $\Delta P$
   - In other words, the demand function is the monopolist's constraint
   - And because the monopolist can "feel" along (estimate) the demand curve, it knows (or could know) the elasticity of demand
+    - By "feel," a monopolist knows their revenue when they change their $P\ (\therefore Q)$ as well.
 
 ```math
 \begin{align}
@@ -242,15 +245,19 @@ It then faces a trade off for selling more:
 
 Now, a monopolist would have to factor in this **price effect** when it decides to sell one more unit as a cost to selling one more unit, in addition to MC:
 
-- $MR = MC$ remains as the optimality condition but $MR$ is not just $P$
+- $MR = MC$ remains as the optimality condition but $MR$ is not just $= P$
+  - In fact, $MR < P$, as explain in the immediate *note* below
+
 - This additional cost is in terms of a lower infra-marginal price
 
 ```math
 MR(Q) = P + \overbrace{\frac{\partial P}{\partial Q}Q}^{-}
 ```
 
+Whether evaluating perfectly competitive firms or monopolies, $P$ and $AC$ are compared. The profit per unit sold for either of the two firms is found through: $(P - AC)Q$. If $AC$ is not available, we can use $MC$ as a proxy.
+
 > [!NOTE]
-> The derivative of the demand function is **negative** so $MR < P$ for a monopolist. In other words, the gain of selling one more unit is less than that of selling the previous unit.
+> The derivative of the demand function is **negative** so $MR = A - 2BQ < P = A - BQ$ for a monopolist. In other words, the gain of selling one more unit is less than that of selling the previous unit.
 
 > [!TIP]
 > If given $Q = A - BP$, we still get its first derivative:
@@ -276,11 +283,19 @@ Likewise, for a perfectly competitive firm, $\frac{\text{d}TR}{\text{d}Q} = P(Q)
 > MR(Q) = A - BQ + \frac{\text{d}P}{\text{d}Q}Q
 > ```
 
+Additionally, because a monopoly involves only one firm, we assume that no other firm can enter in the LR, thus SR = LR for a monopolist.
+
+> [!NOTE]
+> Recall that for a perfectly competitive firm in the LR, when new firms enter, $P$ decreases until $P = AC$.
+
 ## Monopoly Illustration
 
 ![textbook monopoly case](img/Lecture%200%20Foundations%20of%20IO_6.png)
 
-In addition to $MR = MC$, we can also measure the industry/monopolist profit.
+In addition to the profit-maximizing equality for a monopoly $MR = MC$, we can also measure the industry/monopolist profit.
+
+> [!NOTE] Since there is only one
+> Since there is only one firm in a monopoly, the industry is comprised of only one firm (i.e., the monopoly).
 
 It's positive because $P_{m} > AC(Q_{m})$. In this case, even with positive profits, there is no entry, so this figure also shows the long-run equilibrium.
 
@@ -323,10 +338,12 @@ With linear demand, the monopolist's MR is **twice steep** as the demand line bu
 
 ![deadweight loss of monopoly](img/Lecture%200%20Foundations%20of%20IO_12.png)
 
-Notice that $Q_{m} < Q_{c}$, which is the reason for the welfare loss (monopolies restrict output from $Q_{c} \longrightarrow Q_{m}$, creating DWL).
+Because in a monopoly $MR = MC$ where $P > MC \therefore P > MR$, there is naturally a welfare loss. While for a perfectly competitive firm, $P = MC$ which is the ideal situation (profit-maximizing and equilibrium).
 
 > [!NOTE]
-> The deadweight loss triangle can be divided into the consumer welfare loss and the producer surplus loss. However, note that producer surplus is **greater** under monopoly, so the interpretation of producer surplus is not the same thing as industry profit. We cannot conclude that the loss in producer surplus means producers are earning less relative to that of the perfectly competitive level (in fact, the opposite is true -- a monopolist maximizes producer surplus).
+> Also notice that $Q_{m} < Q_{c}$ which is the reason for the welfare loss (monopolies restrict output from $Q_{c} \longrightarrow Q_{m}$, creating DWL).
+>
+> The DWL triangle can be divided into the consumer welfare loss and the producer surplus loss. However, note that producer surplus is **greater** under monopoly, so the interpretation of producer surplus is not the same thing as industry profit. We cannot conclude that the loss in producer surplus means producers are earning less relative to that of the perfectly competitive level (in fact, the opposite is true -- a monopolist maximizes producer surplus).
 
 ## Costs of Monopolies
 
@@ -366,10 +383,14 @@ WL' &= \frac{WL}{PQ}\\
 > Recall that in a pure monopolist,
 >
 > ```math
-> LI = \frac{P - MC}{P} = \frac{1}{\eta}
+> LI = \frac{P - MC}{P} = \frac{1}{\eta} \Longleftrightarrow \frac{\Delta P}{\Delta Q} \frac{Q}{P}
 > ```
 >
 > - Where LI is the Lerner Index (an estimate for the markup)
+> - Additionally, $\eta$ should be greater than $1$ so that $[0,1]$
+>   - This is why monopolies never lie on the inelastic portion of the inverse demand curve
+>   - When $Q$ increases, $\eta \longrightarrow 0$, $\eta$ tends to go up but still negative (a small negative number $< -1$); this is the inelastic portion
+>   - When $Q$ decreases, $\eta \longrightarrow -\infty$, $\eta$ tends to go down and still negative (a large negative number); this is the elastic portion
 
 Therefore:
 
@@ -399,15 +420,22 @@ For the perfect monopoly case, the deadweight loss as a fraction of current indu
 
 ## Market Power
 
-### Lerner Index
+### Lerner Index (LI)
 
-One way to measure how well a market performs from an efficiency point of view is to look at the Lerner Index.
-
-- Measures how far the outcome is from the competitive ideal (i.e., a perfectly competitive market where $P  = MC$):
+One way to measure how well a market performs from an efficiency point of view is to look at the Lerner Index (LI).
 
 ```math
-LI = \frac{P - MC}{P}
+LI = \frac{P - MC}{P} \Longleftrightarrow -\frac{\Delta P}{\Delta Q} \frac{Q}{P},\ [0,1]
 ```
+
+- Measures how far the outcome is from the competitive ideal (i.e., versus a perfectly competitive market where $P  = MC$):
+  - Under a perfectly competitive market, $LI = 0$ (the minimum value for LI)
+  - If $LI = 1$, the firm is so big that $MC = 0$
+  - The gap between $P$ and $MC$ entirely depends on $\frac{\Delta P}{\Delta Q}Q$
+    - This comes from $MC = P + \frac{\Delta P}{\Delta Q}Q$
+    - Intuitively, for the gap to increase, one of the two variables has to increase
+    - A higher slope (steeper slope) means there is a larger gap because MC is twice as steep as the inverse demand function $P = A - BQ$
+      - Normally, $A > B$
 
 - Directly reflects the discrepancy between $P$ and $MC$, thus captures what is of interest when it comes to the exercise of market power
 
@@ -835,6 +863,9 @@ P^{S} &= \$10
           &= \$21,931.25\ \blacksquare
 \end{align}
 ```
+
+> [!NOTE]
+> The PS is not just the triangle at the bottom; it also includes the square above it because PS is based on how much the good is sold for (i.e., WTP).
 
 Or, since we are being asked for the sum of consumer and producer surplus,
 
